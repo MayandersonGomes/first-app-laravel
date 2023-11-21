@@ -52,7 +52,7 @@ const Chirp = ({ chirp }) => {
                         </small>
                         {chirp.created_at !== chirp.updated_at && (
                             <small className="text-sm text-gray-600">
-                                &middot; editado
+                                {" "} &middot; editado
                             </small>
                         )}
                     </div>
