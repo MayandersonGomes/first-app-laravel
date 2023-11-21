@@ -35,7 +35,7 @@ const Index = ({ auth, chirps }) => {
 				</form>
 
                 {chirps.map(chirp => (
-                    <div key={chirp.id} className="mt-3 bg-white shadow-sm rounded-lg">
+                    <div key={chirp.id} className="mt-16 bg-white shadow-sm rounded-lg">
                         <Chirp chirp={chirp} />
                     </div>
                 ))}
